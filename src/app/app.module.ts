@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RatingbarComponentComponent } from './ratingbar-component/ratingbar-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RatingbarComponentComponent
   ],
   imports: [
     BrowserModule,
